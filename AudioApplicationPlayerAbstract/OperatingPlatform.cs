@@ -10,21 +10,12 @@ namespace AudioApplicationPlayerAbstract
     {
         public static void OperationsForPlatform()
         {
-            IAudioPlayerFactory audioPlayerFactory = ChoosePlatformForAudioPlayer.ChoosePlatform();
-            IAudioPlayer audioPlayer = audioPlayerFactory.CreateAudioPlayer();
+           
 
-            while (true)
+         /*   while (true)
             {
-                Console.WriteLine("Menu 2:");
-                Console.WriteLine("1. Play");
-                Console.WriteLine("2. Stop");
-                Console.WriteLine("3. Select Notification Platform: ");
-                Console.WriteLine("4. Return to Menu 1");
-                Console.WriteLine("Select Option:");
-
-                int choice2 = int.Parse(Console.ReadLine());
-
-                switch (choice2)
+                
+                switch ()
                 {
                     case 1:
                         audioPlayer.Play();
@@ -44,7 +35,7 @@ namespace AudioApplicationPlayerAbstract
                         Console.WriteLine("Invalid Choice");
                         break;
                 }
-            }
+            } */
         }
     }
 }
