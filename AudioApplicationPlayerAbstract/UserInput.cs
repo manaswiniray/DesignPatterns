@@ -21,7 +21,6 @@ namespace AudioApplicationPlayerAbstract
             int choice = int.Parse(Console.ReadLine());
 
             return choice;
-
         }
 
         public int ChooseOperation()
@@ -29,12 +28,10 @@ namespace AudioApplicationPlayerAbstract
             Console.WriteLine("Menu 2:");
             Console.WriteLine("1. Play");
             Console.WriteLine("2. Stop");
-            Console.WriteLine("3. Select Notification Platform: ");
-            Console.WriteLine("4. Return to Menu 1");
+            Console.WriteLine("3. Return to Menu 1");
             Console.WriteLine("Select Option:");
 
             int choice = int.Parse(Console.ReadLine());
-
             return choice;
         }
     }

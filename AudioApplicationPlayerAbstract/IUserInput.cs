@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AudioApplicationPlayerAbstract
 {
-    public interface IUserInput
+    public  interface IUserInput
     {
         int ChoosePlatform();
         int ChooseOperation();

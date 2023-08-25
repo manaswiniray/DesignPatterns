@@ -8,8 +8,9 @@ namespace AudioApplicationPlayerAbstract
 {
     public class AudioPlayerFactory
     {
-        public static IAudioPlayerFactory CreateAudioPlayerFactoryFromSelection(int choice){
 
+        public static IAudioPlayerFactory CreateAudioPlayerFactoryFromSelection(int choice)
+        {
             IAudioPlayerFactory audioPlayerFactory = choice switch
             {
                 1 => new WindowsAudioPlayerFactory(),
@@ -19,5 +20,6 @@ namespace AudioApplicationPlayerAbstract
 
             return audioPlayerFactory;
         }
+
     }
 }
