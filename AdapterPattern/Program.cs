@@ -11,7 +11,7 @@
             Console.WriteLine("Enter your value for Conversion: ");
             string userInput=Console.ReadLine();
 
-            int convertedResult=adapter.Converter(userInput);
+            int convertedResult = adapter.Converter(userInput);
             if (convertedResult == -1 )
             {
                 Console.WriteLine("No Integer Value Exists for this Inputted String");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdapterPattern
 {
-    public class StringToIntConverter
+    public class StringToIntConverter       //the system has this method for conversion
     {
         public int ConvertStringToInt(string str)
         {

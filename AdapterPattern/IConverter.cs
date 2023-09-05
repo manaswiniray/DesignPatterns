@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdapterPattern
 {
-    public interface IConverter
+    public interface IConverter     //clients wants to use
     {
         int  Converter(string text);
     }
