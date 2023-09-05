@@ -26,8 +26,3 @@
         }
     }
 }
-
-//Have You Deaf?
-//KHOLI mein Code Bheji hoon dekh dekh ke bolo
-//Mujhe bolna hai Mann Mein nhi
-//Sandy and AKHARI Didi
