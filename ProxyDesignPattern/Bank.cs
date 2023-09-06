@@ -16,7 +16,7 @@ namespace ProxyDesignPattern
 
         public void WithdrawMoney(int accountNumber, int amount)
         {
-            Console.WriteLine("{0} has withdrawn Rs.{1} ",accountNumber, amount);
+            Console.WriteLine("Account No. {0} has withdrawn Rs.{1} ",accountNumber, amount);
         }
     }
 }

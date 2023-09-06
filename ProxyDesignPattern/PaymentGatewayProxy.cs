@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ProxyDesignPattern
 {
-    public class ATM : ISecurityBranch                      
+    public class PaymentGatewayProxy : ISecurityBranch
     {
-        private Bank bank = new Bank();
+        readonly ATM bank = new ATM();
         bool isAuthenticate;
         public bool ValidatePin(int accountNumber, int pin)
         {
-            isAuthenticate=bank.ValidatePin(accountNumber, pin);
+            isAuthenticate = bank.ValidatePin(accountNumber, pin);
             if (!isAuthenticate)
             {
                 return false;
@@ -22,7 +22,7 @@ namespace ProxyDesignPattern
 
         public void WithdrawMoney(int accountNumber, int amount)
         {
-            if(isAuthenticate && amount > 0)
+            if (isAuthenticate && amount > 0)
             {
                 bank.WithdrawMoney(accountNumber, amount);
             }
