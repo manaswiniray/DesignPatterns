@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            AbstractMessage message = new AndroidPhone(new WhatsappMessenger());
+            message.SendMessage("Hello");
         }
     }
 }
