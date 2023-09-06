@@ -8,15 +8,15 @@ namespace VehiclePrototypePattern
 {
     public class VehicleManager
     {
-        BMW bmw;
-        Audi audi;
+        BMWBuilder bmw;
+        AudiBuilder audi;
 
         public VehicleManager()
         {
-            bmw = new BMW();
+            bmw = new BMWBuilder();
             bmw.Initialize();
 
-            audi=new Audi();
+            audi=new AudiBuilder();
             audi.Initialize();
         }
 

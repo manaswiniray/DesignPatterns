@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace VehiclePrototypePattern
 {
-    public class Audi : IVehicle
+    public class BMWBuilder : IVehicle
     {
-        public string Engine { get; set ; }
+        public string Engine { get; set; }
         public string VehicleNo { get; set; }
 
         public IVehicle Clone()
         {
-            Console.WriteLine("Audi is Cloned");
-            return new Audi();
+            Console.WriteLine("BMW is Cloned");
+            return (IVehicle)MemberwiseClone();
         }
 
         public void Initialize()
         {
-            Console.WriteLine("Audi is Initialized");
+            Console.WriteLine("BMW is Initialized");
         }
     }
 }
