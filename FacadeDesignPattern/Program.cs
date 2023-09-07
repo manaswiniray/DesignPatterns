@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            ControlComputer computer = new ControlComputer();
+            ComputerController computer = new ComputerController();
             computer.ControlPower();
         }
     }

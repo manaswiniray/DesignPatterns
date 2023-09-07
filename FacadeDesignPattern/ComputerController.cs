@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FacadeDesignPattern
 {
-    public class ControlComputer
+    public class ComputerController
     {
         readonly IUserInput userInput=new UserInput();
 
@@ -14,7 +14,7 @@ namespace FacadeDesignPattern
         {
             int choice = userInput.GetChoice();
 
-            PowerManagementFacade powerManagementFacade = new PowerManagementFacade();
+            IPowerManagementFacade powerManagementFacade = new PowerManagementFacade();
 
             switch (choice)
             {

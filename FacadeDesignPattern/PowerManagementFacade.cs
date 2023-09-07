@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FacadeDesignPattern
 {
-    public class PowerManagementFacade
+    public class PowerManagementFacade : IPowerManagementFacade
     {
         private ICPU _cPU;
         private IMemory _memory;
