@@ -8,8 +8,7 @@ namespace CompositeDesignPattern
 {
     public interface IEmployee
     {
-        string Name { get; }
-        double Salary { get; }
-        void Display(string departmentName);
+        string GetName();
+        double GetSalary();
     }
 }

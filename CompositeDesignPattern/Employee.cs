@@ -8,17 +8,23 @@ namespace CompositeDesignPattern
 {
     public class Employee : IEmployee
     {
-        public string Name { get; set; }
-        public double Salary { get; set; }
+        private string _name;
+        private double _salary;
 
         public Employee(string name, double salary) 
         {
-            Name = name;
-            Salary = salary;
+            _name = name;
+            _salary = salary;
         }
-        public void Display(string departmentName)
+
+        public string GetName()
         {
-            Console.WriteLine("Employee Name: {0}, Salary: {1} ",Name,Salary);
+            return _name;
+        }
+
+        public double GetSalary()
+        {
+            return _salary;
         }
     }
 }

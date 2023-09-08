@@ -14,14 +14,15 @@
             employeeDepartment1.AddEmployee(employee3);
 
             Console.WriteLine("OCM: ");
-            employeeDepartment1.Display("OCM");
+            employeeDepartment1.GetEmployee();
+
 
             EmployeeDepartment employeeDepartment2 = new EmployeeDepartment("DevOps");
-            employeeDepartment1.AddEmployee(employee2);
-            employeeDepartment1.AddEmployee(employee3);
+            employeeDepartment2.AddEmployee(employee1);
+            employeeDepartment2.AddEmployee(employee2);
 
-            Console.WriteLine("\nDevops: ");
-            employeeDepartment1.Display("DevOps");
+            Console.WriteLine("\nDevOps: ");
+            employeeDepartment2.GetEmployee();
         }
     }
 }

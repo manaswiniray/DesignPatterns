@@ -8,14 +8,14 @@ namespace CompositeDesignPattern
 {
     public class EmployeeDepartment : IEmployee
     {
-        public string Name {get; set;}
-        public double Salary { get; set;}
+        private string _name;
+        private double _salary;
 
-        List<IEmployee> employeeList = new List<IEmployee>();
+        private List<IEmployee> employeeList = new List<IEmployee>();
 
         public EmployeeDepartment(string name)
         {
-            Name = name;
+            _name = name;
         }
 
         public void AddEmployee(IEmployee employee)
@@ -23,15 +23,28 @@ namespace CompositeDesignPattern
             employeeList.Add(employee);
         }
 
-        public void Display(string departmentName)
+        public string GetName()
         {
-            if(departmentName!=null || departmentName.Equals(Name, StringComparison.OrdinalIgnoreCase))
+            return _name;
+        }
+
+        public double GetSalary()
+        {
+            return (double)_salary;
+        }
+
+        public void GetEmployee()
+        {
+            foreach (IEmployee employee in employeeList)
             {
-                foreach(IEmployee employee in employeeList)
-                {
-                    Console.WriteLine(employee.Name);
-                }
+                Console.WriteLine(employee.GetName()+" "+ employee.GetSalary());
             }
+            Console.WriteLine(employeeList.Count);
+        }
+
+        public int EmployeeCount()
+        {
+            return employeeList.Count;
         }
     }
 }
