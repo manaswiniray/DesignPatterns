@@ -14,7 +14,7 @@
             employeeDepartment1.AddEmployee(employee3);
 
             Console.WriteLine("OCM: ");
-            employeeDepartment1.GetEmployee();
+            employeeDepartment1.GetEmployeeList();
 
 
             EmployeeDepartment employeeDepartment2 = new EmployeeDepartment("DevOps");
@@ -22,7 +22,7 @@
             employeeDepartment2.AddEmployee(employee2);
 
             Console.WriteLine("\nDevOps: ");
-            employeeDepartment2.GetEmployee();
+            employeeDepartment2.GetEmployeeList();
         }
     }
 }

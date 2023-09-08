@@ -23,6 +23,11 @@ namespace CompositeDesignPattern
             employeeList.Add(employee);
         }
 
+        public void RemoveEmployee(IEmployee employee)
+        {
+            employeeList.Remove(employee);
+        }
+
         public string GetName()
         {
             return _name;
@@ -33,7 +38,7 @@ namespace CompositeDesignPattern
             return (double)_salary;
         }
 
-        public void GetEmployee()
+        public void GetEmployeeList()
         {
             foreach (IEmployee employee in employeeList)
             {
