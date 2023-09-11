@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDesignPattern", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWeightDesignPattern", "FlyWeightDesignPattern\FlyWeightDesignPattern.csproj", "{46B7B8BD-EB6E-4DDE-9B40-D3C155DBA705}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{171A288F-952B-4FC6-AF37-AAD14960B6F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{F7E0F533-D67D-4EF8-9B05-8C2AFF006BCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,10 @@ Global
 		{46B7B8BD-EB6E-4DDE-9B40-D3C155DBA705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46B7B8BD-EB6E-4DDE-9B40-D3C155DBA705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46B7B8BD-EB6E-4DDE-9B40-D3C155DBA705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E0F533-D67D-4EF8-9B05-8C2AFF006BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E0F533-D67D-4EF8-9B05-8C2AFF006BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E0F533-D67D-4EF8-9B05-8C2AFF006BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E0F533-D67D-4EF8-9B05-8C2AFF006BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +147,7 @@ Global
 		{46C0647E-376F-43D1-9784-4678F37A5112} = {FD5B45E6-135B-43E3-B9C2-A057521B69E6}
 		{75671BEA-F38A-4DB7-B972-0079A6C5895B} = {FD5B45E6-135B-43E3-B9C2-A057521B69E6}
 		{46B7B8BD-EB6E-4DDE-9B40-D3C155DBA705} = {FD5B45E6-135B-43E3-B9C2-A057521B69E6}
+		{F7E0F533-D67D-4EF8-9B05-8C2AFF006BCE} = {171A288F-952B-4FC6-AF37-AAD14960B6F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5BA9778-0D43-4C82-BD07-91AC6B9BA44B}
