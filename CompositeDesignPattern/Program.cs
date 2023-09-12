@@ -26,13 +26,5 @@
         }
     }
 
-    interface Ihel
-    {
-
-    }
-
-    class gdiwjknx : Ihel
-    {
-
-    }
+   
 }
