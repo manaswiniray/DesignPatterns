@@ -13,7 +13,7 @@ namespace ChainOfResponsibilityPattern
         {
             int n = userInput.InputExpense();
             ExpenseApprovalChain expenseApprovalChain = new ExpenseApprovalChain();
-            expenseApprovalChain.ExpenseApproval(n);
+            expenseApprovalChain.ApproveExpense(n);
         }
     }
 }

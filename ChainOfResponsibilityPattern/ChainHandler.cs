@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChainOfResponsibilityPattern
 {
-    public abstract class ChainHandler
+    public abstract class ChainHandler : IChainHandler
     {
         public ChainHandler nextChainHandler;
 

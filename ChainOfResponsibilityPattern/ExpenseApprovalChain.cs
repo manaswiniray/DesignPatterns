@@ -18,7 +18,7 @@ namespace ChainOfResponsibilityPattern
             _departmentSupervisor.SetNextChainHandler(_financeSupervisor);  
         }
 
-        public void ExpenseApproval(long expenseAmount)
+        public void ApproveExpense(long expenseAmount)
         {
             if(expenseAmount > 0)
             {

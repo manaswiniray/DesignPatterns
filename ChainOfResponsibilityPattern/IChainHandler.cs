@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChainOfResponsibilityPattern
 {
-    interface IExpenseApprovalChain
+    public interface IChainHandler
     {
-        void ApproveExpense(long expenseAmount );
+        void SetNextChainHandler(ChainHandler nextChainHandler);
+        void HandleExpense(long expenseAmount);
     }
 }
