@@ -20,7 +20,7 @@ namespace StateDesignPattern
 
         public string GetStatus()
         {
-            return "Busy";
+            return "Current Status : Busy";
         }
     }
 }

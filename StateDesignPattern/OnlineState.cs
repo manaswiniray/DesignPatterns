@@ -20,7 +20,7 @@ namespace StateDesignPattern
 
         public string GetStatus()
         {
-            return "Online";
+            return "Current Status : Online";
         }
     }
 }

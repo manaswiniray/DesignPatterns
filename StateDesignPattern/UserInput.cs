@@ -10,7 +10,7 @@ namespace StateDesignPattern
     {
         public int InputChoice()
         {
-            Console.WriteLine("Which State you want to show?");
+            Console.WriteLine("what is your current status?");
             Console.WriteLine(" 1. Online\n 2. Offline \n 3. Busy\n 4. Away");
             int userChoice=int.Parse(Console.ReadLine());
 

@@ -25,4 +25,14 @@
             employeeDepartment2.GetEmployeeList();
         }
     }
+
+    interface Ihel
+    {
+
+    }
+
+    class gdiwjknx : Ihel
+    {
+
+    }
 }

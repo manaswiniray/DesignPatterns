@@ -12,7 +12,6 @@
             user.ChangeState(userState);
             Console.WriteLine(user.GetStatus());
 
-
         }
     }
 }
