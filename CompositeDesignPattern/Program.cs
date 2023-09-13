@@ -49,14 +49,11 @@
             {
                 foreach(var child in employeeNode.GetEmployeesList())
                 {
-                    Console.WriteLine(child.GetName());
+                    PrintEmployeeList(child);
                 }
             }
-            
         }
-
-        
-
+         
     }
 
 
