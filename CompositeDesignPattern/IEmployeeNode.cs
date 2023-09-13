@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CompositeDesignPattern
 {
-    public interface IEmployee
+    public interface IEmployeeNode
     {
         string GetName();
-        double GetSalary();
+        IList<IEmployeeNode> GetEmployeesList();
     }
 }
