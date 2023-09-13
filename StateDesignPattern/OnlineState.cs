@@ -10,12 +10,12 @@ namespace StateDesignPattern
     {
         public void ReceiveMessage(string message)
         {
-            Console.WriteLine("Received Meesage: {0}", message);
+            Console.WriteLine("Received Meesage in Online Mode: {0}", message);
         }
 
         public void SendMessage(string message)
         {
-            Console.WriteLine("Sent Meesage: {0}", message);
+            Console.WriteLine("Sent Meesage in Online Mode: {0}", message);
         }
 
         public string GetStatus()

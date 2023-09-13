@@ -23,6 +23,12 @@
 
             Console.WriteLine("\nDevOps: ");
             employeeDepartment2.GetEmployeeList();
+
+            IEmployee ed = employeeDepartment1;
+            ed.GetName();
+            employee1.GetName();
+            ed.GetSalary();
+            employee1.GetSalary();
         }
     }
 

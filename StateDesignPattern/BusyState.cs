@@ -10,12 +10,12 @@ namespace StateDesignPattern
     {
         public void ReceiveMessage(string message)
         {
-            Console.WriteLine("Received Meesage: {0}", message);
+            Console.WriteLine("Message only delivered in Busy State", message);
         }
 
         public void SendMessage(string message)
         {
-            Console.WriteLine("Sent Meesage: {0}", message);
+            Console.WriteLine("Sent Meesage in Busy State: {0}", message);
         }
 
         public string GetStatus()

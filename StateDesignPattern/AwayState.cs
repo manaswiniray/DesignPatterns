@@ -10,12 +10,12 @@ namespace StateDesignPattern
     {
         public void ReceiveMessage(string message)
         {
-            Console.WriteLine("Received Meesage: {0}", message);
+            Console.WriteLine("Message Cannot Be Received In Away State");
         }
 
         public void SendMessage(string message)
         {
-            Console.WriteLine("Sent Meesage: {0}", message);
+            Console.WriteLine("Message Cannot Be Sent In Away State");
         }
 
         public string GetStatus()

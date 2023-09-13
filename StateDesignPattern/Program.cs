@@ -10,8 +10,7 @@
             IUserState userState = controller.userStateController();
 
             user.ChangeState(userState);
-            Console.WriteLine(user.GetStatus());
-
+            user.SendMessage("hello");
         }
     }
 }
