@@ -13,7 +13,7 @@ namespace TemplateDesignPattern
             TakeOrder();
             PrepareOrder();
             Service();
-            if (IsPayment())
+            if (IsPaid())
             {
                 ProcessPayment();
             }
@@ -26,7 +26,7 @@ namespace TemplateDesignPattern
         protected abstract void TakeOrder();
         protected abstract void PrepareOrder();
         protected abstract void Service();
-        protected abstract bool IsPayment();
+        protected abstract bool IsPaid();
         protected abstract void ProcessPayment();
 
 

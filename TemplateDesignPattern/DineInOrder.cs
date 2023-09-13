@@ -8,7 +8,7 @@ namespace TemplateDesignPattern
 {
     public class DineInOrder : OrderProcessTemplate
     {
-        protected override bool IsPayment()
+        protected override bool IsPaid()
         {
             return true;
         }
