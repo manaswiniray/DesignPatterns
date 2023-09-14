@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignPattern", "Ob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDesignPattern", "StrategyDesignPattern\StrategyDesignPattern.csproj", "{9FCBFA62-CC8B-4C4C-82FB-B8C042014E55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoDesignPattern", "MementoDesignPattern\MementoDesignPattern.csproj", "{62368AC0-1EF5-4914-A5EF-667D479F7645}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,10 @@ Global
 		{9FCBFA62-CC8B-4C4C-82FB-B8C042014E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FCBFA62-CC8B-4C4C-82FB-B8C042014E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FCBFA62-CC8B-4C4C-82FB-B8C042014E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62368AC0-1EF5-4914-A5EF-667D479F7645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62368AC0-1EF5-4914-A5EF-667D479F7645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62368AC0-1EF5-4914-A5EF-667D479F7645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62368AC0-1EF5-4914-A5EF-667D479F7645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -183,6 +189,7 @@ Global
 		{6B7442C6-6044-4F20-8B8F-6FD19464B337} = {171A288F-952B-4FC6-AF37-AAD14960B6F9}
 		{25317577-EDE6-4D9E-BA84-ED93A7084C42} = {171A288F-952B-4FC6-AF37-AAD14960B6F9}
 		{9FCBFA62-CC8B-4C4C-82FB-B8C042014E55} = {171A288F-952B-4FC6-AF37-AAD14960B6F9}
+		{62368AC0-1EF5-4914-A5EF-667D479F7645} = {171A288F-952B-4FC6-AF37-AAD14960B6F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5BA9778-0D43-4C82-BD07-91AC6B9BA44B}
