@@ -9,7 +9,7 @@ namespace MediatorDesignPattern
     public abstract class Device : IDevice
     {
         protected IMediator mediator;
-
+       
         public void SetMediator(IMediator mediator)
         {
             this.mediator = mediator;

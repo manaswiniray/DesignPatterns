@@ -8,7 +8,7 @@ namespace MediatorDesignPattern
 {
     public class Lights : Device
     {
-        private bool IsSwitchOn=false;
+        
         public override void AdjustDevice(int value)
         {
             Console.WriteLine("Adjusted to the value {0}", value);
@@ -16,17 +16,12 @@ namespace MediatorDesignPattern
 
         public override void TurnOffDevice()
         {
-            IsSwitchOn = false;
+            Console.WriteLine("Turning Off");
         }
 
         public override void TurnOnDevice()
         {
-            IsSwitchOn = true;
-        }
-
-        public bool isSwitchOn()
-        {
-            return IsSwitchOn;
+            Console.WriteLine("Turning On");
         }
     }
 }
