@@ -10,6 +10,10 @@
             var cameraButton = new Button();
             cameraButton.SetCommand(cameraRecordingCommand);
             cameraButton.PressForExecution();
+
+            var menu = new Menu();
+            menu.SetCommand(cameraRecordingCommand);
+            menu.Click();
         }
     }
 }
